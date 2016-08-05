@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.tozzoarredamenti.tozzoarredamenti" version="3.0.151" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.tozzoarredamenti.tozzoarredamenti" version="3.1.151" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Tozzo Arredamenti</name>
     <description>
 Questa applicazione ti permette di portare sempre con te, sul tuo Smartphone o Tablet, il catalogo d'arredamento di Tozzo Arredamenti, il tuo negozio di fiducia di design a Canegrate (Milano).
@@ -12,7 +12,7 @@ Con la gallery guarda il prodotto d'arredo da te selezionato nei minimi dettagli
         Tozzo Arredamenti
     </author>
     
-	<gap:plugin name="com.sharinglabs.cordova.plugin.cache"  />
+	<gap:plugin name="com.sharinglabs.cordova.plugin.cache" />
 	<gap:plugin name="org.apache.cordova.device" />
 	<gap:plugin name="org.apache.cordova.network-information" />
 	<gap:plugin name="org.apache.cordova.inappbrowser" source="npm" />
@@ -49,7 +49,7 @@ Con la gallery guarda il prodotto d'arredo da te selezionato nei minimi dettagli
     <preference name="disable-cursor" value="false" />
     <preference name="android-minSdkVersion" value="7" />
     <preference name="android-installLocation" value="auto" />
-    <preference name='phonegap-version' />
+    <preference name='phonegap-version' value="cli-5.2.0"/>
 	<gap:config-file platform="ios" parent="UIStatusBarHidden">
 		<true/>
 	</gap:config-file>
